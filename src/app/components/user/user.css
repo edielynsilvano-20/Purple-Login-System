@@ -1,0 +1,28 @@
+.dashboard{
+display:flex;
+height:100vh;
+}
+
+.sidebar{
+width:220px;
+background:#caa6ff;
+color:white;
+padding:20px;
+display:flex;
+flex-direction:column;
+}
+
+.sidebar a{
+margin:10px 0;
+cursor:pointer;
+}
+
+.content{
+flex:1;
+background:#f5f0ff;
+}
+
+.navbar{
+background:white;
+padding:15px;
+}
